@@ -1,0 +1,31 @@
+{
+  "name": "dowlatow/alerts",
+  "description": "AlertsBlock виджет предназначеный для отображанеи всплавающих сообщений пользователю. ",
+  "type": "library",
+  "license": "proprietary",
+  "version": "dev-master",
+  "homepage": "https://github.com/novokshonovev/abstract-static-object",
+  "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/novokshonovev/array-helper"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/novokshonovev/js-widget-generator"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "yiisoft/yii2-bootstrap": "*",
+    "dowlatow/array-helper": "dev-master",
+    "dowlatow/js-widget-generator": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "dowlatow\\widgets\\": ""
+    }
+  }
+}
