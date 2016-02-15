@@ -17,8 +17,16 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/novokshonovev/array-helper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/novokshonovev/js-widget-generator"
+        },            
+        {
+            "type": "vcs",
             "url": "https://github.com/novokshonovev/alerts"
-        }
+        }        
     ],
 ```
 * и зависимость
