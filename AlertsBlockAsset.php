@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
 class AlertsBlockAsset extends AssetBundle
 {
     public $js = [
-        'js/alerts.js',
+        'js' . DIRECTORY_SEPARATOR . 'alerts.js',
     ];
 
     public $css = [];
@@ -18,8 +18,8 @@ class AlertsBlockAsset extends AssetBundle
     {
         parent::init();
 
-        $this->sourcePath = __DIR__ . DIRECTORY_SEPARATOR . 'assets';
-        $this->depends[] = WidgetGeneratorAsset::className();
-        $this->depends[] = BootstrapAsset::className();
+        $this->sourcePath = __DIR__ . DIRECTORY_SEPARATOR . 'source';
+        $this->depends[]  = WidgetGeneratorAsset::className();
+        $this->depends[]  = BootstrapAsset::className();
     }
 }
